@@ -14,7 +14,8 @@ public class Categoria{
 				conversionPorMoneda moneda = new conversionPorMoneda();
 				moneda.moneda();
 			}else if(listaEscoger=="Conversor por moneda") {
-				
+				ConversionPorTemperatura temperatura = new ConversionPorTemperatura();
+				temperatura.temperatura();
 			}
 		} catch (HeadlessException e) {
 			// TODO Auto-generated catch block
