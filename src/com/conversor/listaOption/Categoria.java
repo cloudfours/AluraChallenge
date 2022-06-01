@@ -13,7 +13,7 @@ public class Categoria{
 			if(listaEscoger=="Conversor por moneda") {
 				conversionPorMoneda moneda = new conversionPorMoneda();
 				moneda.moneda();
-			}else if(listaEscoger=="Conversor por moneda") {
+			}else if(listaEscoger=="Conversor por temperatura") {
 				ConversionPorTemperatura temperatura = new ConversionPorTemperatura();
 				temperatura.temperatura();
 			}
