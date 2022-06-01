@@ -13,42 +13,42 @@ public class conversionPorMoneda {
 		if (converMoneda == "De pesos a Dolar") {
 			entradaDatos datos = new entradaDatos();
 			float resultado = (float) ((float) datos.datos() * 3976.49);
-			JOptionPane.showMessageDialog(null, resultado);
+			JOptionPane.showMessageDialog(null,"De pesos a Dolar: "+ resultado);
 			continuar.continuar();
 		} else if (converMoneda == "De pesos a Euro") {
 			entradaDatos datos = new entradaDatos();
 			float resultado = (float) ((datos.datos()) * 4235.04);
-			JOptionPane.showMessageDialog(null, resultado);
+			JOptionPane.showMessageDialog(null,"De pesos a Euro: "+ resultado);
 			continuar.continuar();
 		}else if (converMoneda == "De pesos a Libras") {
 			entradaDatos datos = new entradaDatos();
 			float resultado = (float) ((datos.datos()) *4965.18);
-			JOptionPane.showMessageDialog(null, resultado);
+			JOptionPane.showMessageDialog(null,"De pesos a Libras:  "+ resultado);
 			continuar.continuar();
 		}else if (converMoneda == "De pesos a Yen") {
 			entradaDatos datos = new entradaDatos();
 			float resultado = (float) ((datos.datos()) * 30.55);
-			JOptionPane.showMessageDialog(null, resultado);
+			JOptionPane.showMessageDialog(null,"De pesos a Yen:  "+ resultado);
 			continuar.continuar();
 		}else if (converMoneda == "De pesos a Won Coreano") {
 			entradaDatos datos = new entradaDatos();
 			float resultado = (float) ((datos.datos()) * 3.19);
-			JOptionPane.showMessageDialog(null, resultado);
+			JOptionPane.showMessageDialog(null,"De pesos a Won Coreano: "+ resultado);
 			continuar.continuar();
 		}else if (converMoneda == "De dolar a Pesos") {
 			entradaDatos datos = new entradaDatos();
 			float resultado = (float) ((datos.datos()) * 3976.50);
-			JOptionPane.showMessageDialog(null, resultado);
+			JOptionPane.showMessageDialog(null,"De dolar a Pesos: "+ resultado);
 			continuar.continuar();
 		}else if (converMoneda == "De Euro a Pesos") {
 			entradaDatos datos = new entradaDatos();
 			float resultado = (float) ((datos.datos()) * 4236.40);
-			JOptionPane.showMessageDialog(null, resultado);
+			JOptionPane.showMessageDialog(null,"De Euro a Pesos: "+  resultado);
 			continuar.continuar();
 		}else if (converMoneda == "De Libras a Pesos") {
 			entradaDatos datos = new entradaDatos();
 			float resultado = (float) ((datos.datos()) * 4965.85);
-			JOptionPane.showMessageDialog(null, resultado);
+			JOptionPane.showMessageDialog(null,"De Libras a Pesos: "+ resultado);
 			continuar.continuar();
 		}
 
